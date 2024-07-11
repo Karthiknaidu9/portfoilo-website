@@ -3,9 +3,11 @@ import styled from "styled-components";
 // import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+// import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import LeetCodeIcon from "../LeetCodeIcon";
 import EmailIcon from "@mui/icons-material/Email";
 import { Bio } from "../../data/constants";
+import { colors } from "@mui/material";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -104,7 +106,8 @@ function Footer() {
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.facebook} target="display">
             {/* <FacebookIcon /> */}
-            <AccountCircleIcon />
+            {/* <AccountCircleIcon /> */}
+            <LeetCodeIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
