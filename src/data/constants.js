@@ -328,7 +328,7 @@ export const projects = [
     tags: ["React Js", "Material UI"],
     category: "web app",
     github: "https://github.com/Karthiknaidu9/React-Covid-Tracker",
-    webapp: "",
+    webapp: "https://karthiknaidu9.github.io/React-Covid-Tracker/",
   },
   {
     id: 0,
